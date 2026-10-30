@@ -1,0 +1,1 @@
+var e=`/MikeT.MMT/assets/night_sky-DP0cz_4d.webp`;export{e as t};
