@@ -1,0 +1,1 @@
+import{l as e,n as t,u as n}from"./index-Bs3F_9gD.js";import{r,t as i}from"./home-us8jOUxZ.js";var a=n(e(),1),o=t();function s(){let e=(0,a.useRef)(null);return(0,a.useEffect)(()=>{let t=e.current?.querySelector(`#mmt-vinyl`);if(t)return i(t)},[]),(0,o.jsx)(`div`,{ref:e,dangerouslySetInnerHTML:{__html:r}})}export{s as default};
