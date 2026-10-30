@@ -8,6 +8,6 @@
     { "src": "/MikeT\\.MMT/assets/(.*)", "headers": { "Cache-Control": "public, max-age=31536000, immutable" }, "continue": true },
     { "handle": "filesystem" },
     { "src": "/MikeT\\.MMT(?:/(?:mic|mix|track))?/?", "dest": "/MikeT.MMT/index.html", "headers": { "Cache-Control": "public, max-age=0, must-revalidate", "X-Mike-Site": "standalone" } },
-    { "src": "/(?:mike-t|miket\\.mmt)(/.*)?", "status": 307, "headers": { "Location": "/MikeT.MMT$1" } }
+    { "src": "/mike-t(/.*)?", "status": 307, "headers": { "Location": "/MikeT.MMT$1" } }
   ]
 }
